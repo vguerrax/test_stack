@@ -1,14 +1,7 @@
 type: app
-description: Default stackfile usecase description
+description: Default stackfile
 # template used to create the project
-template: test_stack/<template-name>
-inputs:
-  some_input: value
+template: test_stack/node_project
 # list of plugins to be applied after project creation
 plugins:
   - plugin: test_stack/<plugin-name>
-    inputs:
-      some_input: value
-      some_list:
-        - item1
-        - item2
